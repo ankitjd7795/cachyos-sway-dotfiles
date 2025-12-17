@@ -2,7 +2,7 @@
 
 Complete reference of all keyboard shortcuts and keybindings configured in this Sway setup.
 
-> **Note**: `Mod` refers to the Super/Windows key (`Mod4`). All keybindings are customizable in [default-options-and-keymaps.conf](cachyos-sway-dotfiles-main/dot_config/sway/config.d/default-options-and-keymaps.conf).
+> **Note**: `Mod` refers to the Super/Windows key (`Mod4`). All keybindings are customizable in [default-options-and-keymaps.conf](./cachyos-sway-dotfiles-main/dot_config/sway/config.d/default-options-and-keymaps.conf).
 
 ## Table of Contents
 
@@ -257,4 +257,4 @@ bindsym $mod+Ctrl+l exec ~/.config/sway/scripts/lockman.sh
 
 ---
 
-For issues or suggestions regarding keybindings, please [open an issue](https://github.com/Hype000798/cachyos-sway-dotfiles/issues).
+For issues or suggestions regarding keybindings, please [open an issue](https://github.com/ankitjd7795/cachyos-sway-dotfiles/issues).
