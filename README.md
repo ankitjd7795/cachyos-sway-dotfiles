@@ -766,4 +766,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Support & Contact
 
-If you encounter any issues or have questions, please open an issue on the [GitHub Issue Tracker](https://github.com/Hype000798/cachyos-sway-dotfiles/issues).
+If you encounter any issues or have questions, please open an issue on the [GitHub Issue Tracker](https://github.com/ankitjd7795/cachyos-sway-dotfiles/issues).
