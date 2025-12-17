@@ -105,7 +105,6 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/ankitjd7795/cachyos-sway-dotfiles
       name: GitHub Repository
-  repo: ankitjd7795/cachyos-sway-dotfiles
 
 extra_css:
   - stylesheets/extra.css
