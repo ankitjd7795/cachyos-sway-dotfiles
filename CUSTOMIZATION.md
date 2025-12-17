@@ -74,7 +74,7 @@ The default setup uses Catppuccin Mocha color palette.
 
 #### Sway Colors
 
-Edit [00-colors.conf](cachyos-sway-dotfiles-main/dot_config/sway/config.d/00-colors.conf):
+Edit [00-colors.conf](./cachyos-sway-dotfiles-main/dot_config/sway/config.d/00-colors.conf):
 
 ```bash
 chezmoi edit ~/.config/sway/config.d/00-colors.conf
@@ -161,7 +161,7 @@ set $crust #11111b
 
 ### Window Behavior
 
-Edit [default-options-and-keymaps.conf](cachyos-sway-dotfiles-main/dot_config/sway/config.d/default-options-and-keymaps.conf):
+Edit [default-options-and-keymaps.conf](./cachyos-sway-dotfiles-main/dot_config/sway/config.d/default-options-and-keymaps.conf):
 
 ```bash
 # Default border style
@@ -201,7 +201,7 @@ smart_borders on
 
 ### Output Configuration
 
-Edit [outputs.conf](cachyos-sway-dotfiles-main/dot_config/sway/config.d/outputs.conf):
+Edit [outputs.conf](./cachyos-sway-dotfiles-main/dot_config/sway/config.d/outputs.conf):
 
 ```bash
 # Primary display
@@ -232,7 +232,7 @@ swaymsg -t get_outputs
 
 ### Input Configuration
 
-Edit [inputs.conf](cachyos-sway-dotfiles-main/dot_config/sway/config.d/inputs.conf):
+Edit [inputs.conf](./cachyos-sway-dotfiles-main/dot_config/sway/config.d/inputs.conf):
 
 ```bash
 # Touchpad
@@ -273,7 +273,7 @@ input type:pointer {
 
 ### Layout Configuration
 
-Edit [config.jsonc](cachyos-sway-dotfiles-main/dot_config/waybar/config.jsonc):
+Edit [config.jsonc](./cachyos-sway-dotfiles-main/dot_config/waybar/config.jsonc):
 
 ```json
 {
@@ -373,7 +373,7 @@ Edit [config.jsonc](cachyos-sway-dotfiles-main/dot_config/waybar/config.jsonc):
 
 ### Styling Waybar
 
-Edit [style.css](cachyos-sway-dotfiles-main/dot_config/waybar/style.css):
+Edit [style.css](./cachyos-sway-dotfiles-main/dot_config/waybar/style.css):
 
 ```css
 /* Global styles */
@@ -482,7 +482,7 @@ tooltip label {
 
 ### Terminal (Wezterm)
 
-Edit [wezterm.lua](cachyos-sway-dotfiles-main/dot_config/wezterm/wezterm.lua):
+Edit [wezterm.lua](./cachyos-sway-dotfiles-main/dot_config/wezterm/wezterm.lua):
 
 ```lua
 local wezterm = require 'wezterm'
@@ -527,7 +527,7 @@ return config
 
 ### Fuzzel Launcher
 
-Edit [fuzzel.ini](cachyos-sway-dotfiles-main/dot_config/fuzzel/fuzzel.ini):
+Edit [fuzzel.ini](./cachyos-sway-dotfiles-main/dot_config/fuzzel/fuzzel.ini):
 
 ```ini
 [main]
@@ -553,7 +553,7 @@ radius=12
 
 ### File Manager (Yazi)
 
-Edit [theme.toml](cachyos-sway-dotfiles-main/dot_config/yazi/theme.toml):
+Edit [theme.toml](./cachyos-sway-dotfiles-main/dot_config/yazi/theme.toml):
 
 ```toml
 [manager]
@@ -764,7 +764,7 @@ See [SCRIPTS.md](SCRIPTS.md#creating-custom-scripts) for detailed guide.
 
 ### Adding Custom Keybindings
 
-Edit [default-options-and-keymaps.conf](cachyos-sway-dotfiles-main/dot_config/sway/config.d/default-options-and-keymaps.conf):
+Edit [default-options-and-keymaps.conf](./cachyos-sway-dotfiles-main/dot_config/sway/config.d/default-options-and-keymaps.conf):
 
 ```bash
 # Example: Add keybinding for custom script
