@@ -1,27 +1,117 @@
 site_name: CachyOS Sway Dotfiles
 site_url: https://ankitjd7795.github.io/cachyos-sway-dotfiles/
+site_description: A collection of meticulously crafted dotfiles for a beautiful and functional Sway Wayland compositor setup on CachyOS
+site_author: ankitjd7795
+repo_name: ankitjd7795/cachyos-sway-dotfiles
+repo_url: https://github.com/ankitjd7795/cachyos-sway-dotfiles
+edit_uri: edit/main/docs/
+
 theme:
   name: material
   palette:
-    scheme: slate
-    primary: indigo
-    accent: light blue
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: light blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: light blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - toc.follow
+    - toc.integrate
+  font:
+    text: Roboto
+    code: JetBrains Mono
+
 nav:
   - Home: index.md
-  - Keybindings: keybindings.md
-  - Customization: customization.md
-  - Scripts: scripts.md
-  - Troubleshooting: troubleshooting.md
-  - Packages: packages.md
+  - Getting Started: 
+      - Installation: installation.md
+      - Quick Start: quick-start.md
+  - Configuration:
+      - Keybindings: keybindings.md
+      - Customization: customization.md
+  - Documentation:
+      - Scripts: scripts.md
+      - Packages: packages.md
+  - Help:
+      - Troubleshooting: troubleshooting.md
+      - Contributing: ../CONTRIBUTING.md
+      - Changelog: ../CHANGELOG.md
+
 plugins:
-  - search
+  - search: 
+      lang: en
+      separator: '[\s\-\.]+'
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: timeago
+  - minify:
+      minify_html: true
+
 markdown_extensions:
   - admonition
-  - codehilite
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - def_list
+  - attr_list
+  - md_in_html
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.keys
+  - pymdownx.arithmatex:
+      generic: true
   - toc:
       permalink: true
+      permalink_title: Anchor link to this section for reference
+      toc_depth: 3
   - tables
+
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/ankitjd7795/cachyos-sway-dotfiles
+      name: GitHub Repository
+  repo: ankitjd7795/cachyos-sway-dotfiles
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js
+
+copyright: |
+  Copyright &copy; 2025 <a href="https://github.com/ankitjd7795" target="_blank">ankitjd7795</a>
