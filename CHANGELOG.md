@@ -30,3 +30,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 [Unreleased]: https://github.com/ankitjd7795/cachyos-sway-dotfiles/compare/v1.1.0...HEAD
 [1.1.0]: https://github.com/ankitjd7795/cachyos-sway-dotfiles/compare/v1.0.0...v1.1.0
+[1.0.0]: https://github.com/ankitjd7795/cachyos-sway-dotfiles/releases/tag/v1.0.0
