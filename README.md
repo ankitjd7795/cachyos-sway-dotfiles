@@ -8,7 +8,16 @@
 
 A collection of meticulously crafted dotfiles for a beautiful and functional Sway Wayland compositor setup on CachyOS, managed with `chezmoi`.
 
-Documentation site: https://ankitjd7795.github.io/cachyos-sway-dotfiles/
+## 📚 Enhanced Documentation
+
+Visit our comprehensive documentation site with dark/light mode toggle, enhanced navigation, and improved search: **https://ankitjd7795.github.io/cachyos-sway-dotfiles/**
+
+Features:
+- ✨ Dark/Light mode toggle
+- 🔍 Advanced search with suggestions
+- 📋 Copy buttons on code blocks
+- 📱 Mobile-friendly responsive design
+- 🎨 Smooth animations and custom styling
 
 > ⭐ If you find this project useful, consider giving it a star!
 

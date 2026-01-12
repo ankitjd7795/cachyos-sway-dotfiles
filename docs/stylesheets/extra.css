@@ -1,0 +1,33 @@
+/* Custom color variables */
+:root {
+  --md-primary-fg-color: #5865F2;
+}
+
+/* Custom scrollbar for webkit browsers */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--md-default-bg-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--md-primary-fg-color);
+  border-radius: 5px;
+}
+
+/* Smooth animations */
+.md-content {
+  animation: fadeIn 0.3s;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Better code block styling */
+.highlight {
+  border-radius: 0.5rem;
+}
